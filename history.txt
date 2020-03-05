@@ -1,0 +1,7 @@
+  603  grep France,2019,PHP < wilders.csv | wc -l > php_france_2019.csv
+  604  cd alumni/
+  605  grep France,2019,PHP < wilders.csv | wc -l > php_france_2019.csv
+  606  grep Biarritz < wilders.csv | cat > Biarritz.csv
+  607  grep Toulouse < wilders.csv | cat > Toulouse.csv
+  608  cat Toulouse.csv Biarritz.csv | grep JavaScript > javascript_biarritz_toulouse.csv
+  609  history | tail -n 7 > history.txt
